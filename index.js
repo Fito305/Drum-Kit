@@ -1,6 +1,3 @@
-// let drumBtns = document.querySelectorAll(".drum").length;
-// console.log(drumBtns)
-
 function curIdxOfBtn() {
     let btnKey = Array.from(document.querySelectorAll(".drum"));
 
