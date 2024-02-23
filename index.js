@@ -1,4 +1,5 @@
-let DrumBtns = document.querySelectorAll(".drum").length;
+// let drumBtns = document.querySelectorAll(".drum").length;
+// console.log(drumBtns)
 
 function curIdxOfBtn() {
     let btnKey = Array.from(document.querySelectorAll(".drum"));
@@ -51,7 +52,7 @@ function makeSound(key) {
             break;
 
         default: 
-            cosole.log(key);
+            console.log(key);
         }
 }
 
